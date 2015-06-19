@@ -27,11 +27,18 @@ namespace angStart
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                       "~/Scripts/app/app.js",
-                      "~/Scripts/app/controllers/*.js"));
+                      "~/Scripts/app/controllers/*.js",
+                      "~/Scripts/app/directives/*.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/jsgrid-css").Include(
+                     "~/Content/jsgrid/*.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jsgrid").Include(
+                      "~/Scripts/jsgrid/*.js"));
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862

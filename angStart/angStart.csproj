@@ -132,6 +132,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jsgrid\demos.css" />
+    <Content Include="Content\jsgrid\jsgrid-theme.css" />
+    <Content Include="Content\jsgrid\jsgrid.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -163,6 +166,7 @@
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\controllers\user.js" />
     <Content Include="Scripts\app\controllers\spa.js" />
+    <Content Include="Scripts\app\directives\jsgrid.js" />
     <Content Include="Scripts\app\views\users.html" />
     <Content Include="Scripts\app\views\newuser.html" />
     <Content Include="Scripts\app\views\userbyid.html" />
@@ -180,7 +184,6 @@
     <Content Include="Scripts\angularjs\angular-aria.min.js.map" />
     <Content Include="Scripts\angularjs\angular-animate.min.js.map" />
     <Content Include="Scripts\angularjs\angular.min.js.map" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-er.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-et.js" />
@@ -924,8 +927,10 @@
     <Content Include="Scripts\angularjs\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_zu.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jsgrid\jsgrid.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -946,8 +951,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\angularjs\version.json" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
